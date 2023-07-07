@@ -6,6 +6,9 @@ const number = document.querySelector("span");
 
 number.innerText = 0;
 
+const ADD = "ADD";
+const MINUS = "MINUS";
+
 const countModifier = (count = 0, action) => {
   switch (action.type) {
     case ADD:
